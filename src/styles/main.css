@@ -1,7 +1,13 @@
-/* line 1, partials/_login.scss */
-.login {
-  padding: 10px;
-  color: blue;
-}
+.container {
+  border: 1px solid red;
+  width: 100%;
+  border-radius: 6px; }
+
+.login .example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%; }
+.login .example-full-width {
+  width: 100%; }
 
 /*# sourceMappingURL=main.css.map */
