@@ -1,0 +1,37 @@
+$theme-bg-color :#3389ff;
+$font-color-white : #ffffff;
+$font-color-primary : #000000;
+
+
+.theme-bg-color{
+  background-color: $theme-bg-color;
+  color: $font-color-white;
+}
+
+.font-color-white{
+  color: $font-color-white;
+}
+
+.font-color-primary{
+  color: $font-color-primary;
+}
+
+.btn{
+  border-radius: 50%;
+  &.-primary{
+    background-color: $font-color-white;
+    color: $theme-bg-color;
+    &:hover , :active{
+      background-color: $theme-bg-color;
+      color: $font-color-white;
+    }
+  }
+  &.-second{
+    background-color: $theme-bg-color;
+    color: $font-color-white;
+    &:hover , :active{
+      background-color: $font-color-white;
+      color: $theme-bg-color;
+    }
+  }
+}

@@ -1,13 +1,50 @@
-.container {
-  border: 1px solid red;
-  width: 100%;
-  border-radius: 6px; }
+@import url(~bootstrap/dist/css/bootstrap.css);
+.theme-bg-color {
+  background-color: #3389ff;
+  color: #ffffff; }
 
-.login .example-form {
-  min-width: 150px;
-  max-width: 500px;
-  width: 100%; }
-.login .example-full-width {
-  width: 100%; }
+.font-color-white {
+  color: #ffffff; }
+
+.font-color-primary {
+  color: #000000; }
+
+.btn {
+  border-radius: 50%; }
+  .btn.-primary {
+    background-color: #ffffff;
+    color: #3389ff; }
+    .btn.-primary:hover, .btn.-primary :active {
+      background-color: #3389ff;
+      color: #ffffff; }
+  .btn.-second {
+    background-color: #3389ff;
+    color: #ffffff; }
+    .btn.-second:hover, .btn.-second :active {
+      background-color: #ffffff;
+      color: #3389ff; }
+
+.container {
+  width: 100%;
+  border-radius: 6px;
+  padding-top: 15px;
+  margin-top: 30px; }
+
+.nopadding-right {
+  padding-right: 0; }
+
+.nopadding-left {
+  padding-left: 0; }
+
+.login {
+  padding: 10px;
+  margin: 5% 15%; }
+  .login .signup {
+    height: 100%; }
+    .login .signup > input {
+      padding: 10px; }
+  .login .register {
+    z-index: -1;
+    height: 90%; }
 
 /*# sourceMappingURL=main.css.map */
