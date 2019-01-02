@@ -3,13 +3,25 @@
     <div class="signin col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 nopadding-right">
       <div class="shadow p-3 mb-5 bg-white rounded">
         <div class="emailFormControl">
-          <h2>Sign In</h2>
+          <form class="example-form" action="index.html" method="post">
+            <h2>Sign In</h2>
+            <mat-form-field class="example-full-width">
+              <input  type="email" matInput placeholder="Email">
+            </mat-form-field>
+            <mat-form-field class="example-full-width">
+              <input type="password" matInput placeholder="Password">
+            </mat-form-field>
+            <div class="button-row">
+              <button  class="btn-primary" mat-flat-button color="primary">Primary</button>
+              </div>
+          </form>
+          <!--
           <div class=""><input type="email" matInput placeholder="Email"></div>
           <div class=""><input type="password" matInput placeholder="Password"></div>
           <div>
             <button class="btn-primary" type="submit" name="signin">Sign In</button>
             <button class="btn-primary" type="reset" name="cancel">Cancel</button>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
